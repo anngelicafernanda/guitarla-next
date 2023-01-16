@@ -3,7 +3,7 @@ import Guitarra from "../components/guitarra";
 import styles from "../styles/grid.module.css"
 
 export default function Tienda({ guitarras }) {
-  console.log(guitarras);
+
   return (
     <Layout
       title={"Tienda Virtual"}
