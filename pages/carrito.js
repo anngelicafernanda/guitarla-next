@@ -36,6 +36,7 @@ export default function Carrito({ carrito, actualizarCantidad, eliminarProducto 
                       <div className={styles.cantidad}>
                         <p>Cantidad: </p>
                         <select
+                       value={producto.cantidad}
                         onChange={e => actualizarCantidad({
                           id: producto.id,
                           cantidad: e.target.value
